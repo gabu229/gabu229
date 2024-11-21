@@ -1,0 +1,24 @@
+.textContainer {
+  position: relative;
+  perspective: 65px;
+  animation: spin 15s infinite linear;
+
+  span {
+    position: absolute;
+    width: 1em;
+    font-size: 1rem;
+    white-space: nowrap;
+    text-indent: calc(var(--i) * -1em);
+    overflow: hidden;
+    transform: translate(-50%, -50%) rotate(calc(15deg * var(--i)))
+      translateY(calc(-1em / sin(15deg))) rotateX(-90deg);
+
+    /* outline: 2px solid red; */
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(-360deg);
+  }
+}

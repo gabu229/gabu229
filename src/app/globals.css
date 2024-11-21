@@ -3,9 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  --khaki: #b6aa9eff;
+  --linen: #f6ede4ff;
+  --cadet-gray: #90a0a2ff;
+  --chamoisee: #97815cff;
+  --ecru: #bdaf80ff;
+  --black-olive: #42413dff;
+  --black-olive-2: #3a3730ff;
+  --umber: #6d5a49ff;
+  --linen-2: #f4ebe0ff;
+  --battleship-gray: #7e807aff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,12 +27,67 @@
   }
 }
 
+html {
+  @apply max-w-[100vw] overflow-x-hidden;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-[var(--linen)] text-[var(--black-olive-2)];
+  background-image: url("/images/-crumbled-paper.webp");
+  background-size: max(120%, 1200px);
+  background-position: 15%;
+  background-attachment: fixed;
+  @apply bg-blend-soft-light text-wrap overflow-x-hidden;
+}
+
+* {
+  @apply border-[var(--black-olive-2)];
+}
+
+section {
+  @apply px-2 md:px-14;
+}
+
+input,
+textarea {
+  @apply border-b bg-transparent text-sm w-full px-2 py-3 sm:text-sm rounded-sm focus:px-4 focus:outline-none outline-none transition-all;
+}
+
+div:has(.work-item:hover) .work-item:not(:hover) {
+  @apply md:blur-[6px];
+}
+
+.navbar-block {
+  @apply w-full h-[100vh] fixed top-0 right-0;
+  @apply z-50;
+  @apply flex flex-col flex-wrap justify-center items-end;
+  @apply gap-6 p-1;
+  @apply bg-white/70;
+
+  /* @apply transition-all ease-in-out duration-1000 delay-700; */
+}
+
+.navbar-block .header {
+  @apply w-auto inline-block text-3xl md:text-5xl font-bold relative z-[1] text-end italic;
+}
+
+/* .navbar-block .header::before {
+  content: "";
+  @apply block absolute w-[110%] top-[100%] left-0 bg-teal-400/10 h-[30px] md:h-[35px] z-[-1];
+  transform-origin: bottom center;
+  transform: translateY(-85%) translateX(-8%) skewX(-10deg);
+} */
+
+::selection {
+  @apply bg-[var(--umber)] text-white;
+}
+
+::-webkit-scrollbar {
+  @apply w-[7px];
+}
+::-webkit-scrollbar-track {
+  @apply bg-[var(--linen)];
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-[var(--umber)] hover:bg-[var(--black-olive)];
 }
