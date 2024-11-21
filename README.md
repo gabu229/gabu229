@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1></h1>
+<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
+<h1> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞 </h1>
 
-## Getting Started
+<img align='right' src='https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif' width='200"'>
 
-First, run the development server:
+[![Static Badge](https://img.shields.io/badge/_-%40orie__gabriel-black?style=flat-square&logo=x&link=https%3A%2F%2Fx.com%2Forie_gabriel)](https://x.com/orie_gabriel)
+[![Static Badge](https://img.shields.io/badge/_-%40gabriel--orie-blue?style=flat-square&logo=linkedin&link=https%3A%2F%2Flinkedin.com%2Fin%2Forie-gabriel%2F)](https://linkedin.com/in/orie-gabriel/)
+![Static Badge](https://img.shields.io/badge/_-%40gabu229-purple?style=flat-square&logo=discord&logoColor=fff&color=5865F2&link=https%3A%2F%2Fdiscord.com%2Fapp)
+<!-- [![Static Badge](https://img.shields.io/badge/_-%40gabrielorie-acdc5c?style=flat-square&logo=linktree&logoColor=black&link=https%3A%2F%2Flinktr.ee%2Fgabrielorie)](https://linktr.ee/gabrielorie) -->
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### I am Gabriel Orie 😃
+### I build for the web
+### Dev by day. 💻 Superhero by night. 🐱‍👤
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 💬 Ask me about anything an everything.
+- 🎯 Portfolio site: [Portfolio](https://gabriel-orie.netlify.app).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## ⚡ Technologies
+- Front-end development using; **ReactJS, NextJS, Javascript, TypeScript, AJAX, HTML|CSS, Bootstrap, TailwindCSS**.
 
-To learn more about Next.js, take a look at the following resources:
+- Backend development using; **PHP, Laravel, CodeIgniter**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Building with relational DBs; **MySQL, PostgreSQL**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Utilizing tools & cloud architecture like; **Supabase, Firebase, AWS**.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<a href="#" align="center">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabu229&layout=compact&langs_count=7" align="center" height="150" />
+</a>
+<a href="#" align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=gabu229&show_icons=true&hide=stars,issues" align="center" height="150" />
+</a>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+## ⚡ Fun fact: Internet users blink less than usual.
