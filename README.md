@@ -10,12 +10,12 @@
 <!-- [![Static Badge](https://img.shields.io/badge/_-%40gabrielorie-acdc5c?style=flat-square&logo=linktree&logoColor=black&link=https%3A%2F%2Flinktr.ee%2Fgabrielorie)](https://linktr.ee/gabrielorie) -->
 
 
-### I am Gabriel Orie 😃
+### I am Gabriel 😃
 ### I build for the web
 ### Dev by day. 💻 Superhero by night. 🐱‍👤
 
 - 💬 Ask me about anything an everything.
-- 🎯 Portfolio site: [Portfolio](https://gabriel-orie.netlify.app).
+- 🎯 Portfolio website: [Portfolio](https://gabrielorie.netlify.app).
 
 
 ## ⚡ Technologies
