@@ -31,9 +31,9 @@
 <a href="#" align="center">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabu229&layout=compact&langs_count=7" align="center" height="150" />
 </a>
-<a href="#" align="center">
+<!-- <a href="#" align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=gabu229&show_icons=true&hide=stars,issues" align="center" height="150" />
-</a>
+</a> -->
 
 
 
